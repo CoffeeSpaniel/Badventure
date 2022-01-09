@@ -1,0 +1,140 @@
+/* SASS */
+$backgroundColor: #bfffff;
+$textColor: #330003;
+$titleColor: #833806;
+$borderColor: #052c00;
+body {
+  background-color: $backgroundColor;
+  font-family: Arial, Helvetica, sans-serif;
+  color: $textColor;
+}
+#title {
+  font-family: cursive;
+  font-size: 3rem;
+  color: $titleColor;
+}
+
+.App {
+  max-width: 90%;
+  margin: 0 auto;
+  // font-size: 1.8rem;
+}
+
+#footNote {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+}
+// Story Pages
+.GameContainer {
+  text-align: center;
+  margin: 0 auto;
+}
+.endGame {
+  text-align: center;
+  margin: 0 auto;
+}
+#dragon {
+  height: 300px;
+  width: auto;
+  margin-top: 30px;
+}
+.picture img {
+  max-height: 40%;
+  width: auto;
+  border-radius: 5px;
+}
+// .unsplashImage {
+
+// }
+
+// Picture Attribution
+.attribute {
+  color: rgb(48, 61, 24);
+
+}
+.text,
+.description {
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+}
+
+// Buttons
+.buttonContainer {
+  max-width: 50%;
+  margin: 0 auto;
+  min-height: 250px;
+}
+
+.buttonA,
+.buttonB,
+.startButton,
+.retryButton {
+  max-width: 40%;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  min-height: 150px;
+  min-width: 300px;
+}
+.buttonA,
+.buttonB,
+.startButton {
+  background-color: #4caf50;
+}
+.hoverButton :hover {
+  background-color: #227425;
+}
+.retryButton {
+  background-color: rgb(224, 83, 83);
+}
+.hoverRetryButton :hover {
+  background-color: rgb(175, 52, 52);
+}
+
+.startButton,
+.retryButton {
+  margin: 0 auto;
+  max-width: 80%;
+}
+.buttonA {
+  float: left;
+}
+.buttonB {
+  float: right;
+}
+
+@media only screen and (max-width: 1260px) {
+    .buttonContainer {
+        max-width:70%;
+
+    }
+    .text {
+        max-width:70%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .buttonA {
+        float: none;
+    }
+    .buttonB {
+        float: none;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .retryButton, .startButton {
+        margin-bottom:20px;
+    }
+    #footNote {
+        visibility: hidden;
+    }
+    
+    
+
+}

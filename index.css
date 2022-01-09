@@ -1,0 +1,138 @@
+/* SASS */
+body {
+  background-color: #bfffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #330003;
+}
+
+#title {
+  font-family: cursive;
+  font-size: 3rem;
+  color: #833806;
+}
+
+.App {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#footNote {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.GameContainer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.endGame {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#dragon {
+  height: 300px;
+  width: auto;
+  margin-top: 30px;
+}
+
+.picture img {
+  max-height: 40%;
+  width: auto;
+  border-radius: 5px;
+}
+
+.attribute {
+  color: #303d18;
+}
+
+.text,
+.description {
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+}
+
+.buttonContainer {
+  max-width: 50%;
+  margin: 0 auto;
+  min-height: 250px;
+}
+
+.buttonA,
+.buttonB,
+.startButton,
+.retryButton {
+  max-width: 40%;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  min-height: 150px;
+  min-width: 300px;
+}
+
+.buttonA,
+.buttonB,
+.startButton {
+  background-color: #4caf50;
+}
+
+.hoverButton :hover {
+  background-color: #227425;
+}
+
+.retryButton {
+  background-color: #e05353;
+}
+
+.hoverRetryButton :hover {
+  background-color: #af3434;
+}
+
+.startButton,
+.retryButton {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.buttonA {
+  float: left;
+}
+
+.buttonB {
+  float: right;
+}
+
+@media only screen and (max-width: 1260px) {
+  .buttonContainer {
+    max-width: 70%;
+  }
+  .text {
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .buttonA {
+    float: none;
+  }
+  .buttonB {
+    float: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .retryButton, .startButton {
+    margin-bottom: 20px;
+  }
+  #footNote {
+    visibility: hidden;
+  }
+}
+/*# sourceMappingURL=index.css.map */
