@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Badventure/static/css/main.b55586d5.chunk.css",
+    "main.js": "/Badventure/static/js/main.1b73d3ab.chunk.js",
+    "main.js.map": "/Badventure/static/js/main.1b73d3ab.chunk.js.map",
+    "runtime-main.js": "/Badventure/static/js/runtime-main.1d1aa6b3.js",
+    "runtime-main.js.map": "/Badventure/static/js/runtime-main.1d1aa6b3.js.map",
+    "static/css/2.a1596f27.chunk.css": "/Badventure/static/css/2.a1596f27.chunk.css",
+    "static/js/2.0ed73771.chunk.js": "/Badventure/static/js/2.0ed73771.chunk.js",
+    "static/js/2.0ed73771.chunk.js.map": "/Badventure/static/js/2.0ed73771.chunk.js.map",
+    "static/js/3.d0e44433.chunk.js": "/Badventure/static/js/3.d0e44433.chunk.js",
+    "static/js/3.d0e44433.chunk.js.map": "/Badventure/static/js/3.d0e44433.chunk.js.map",
+    "index.html": "/Badventure/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/Badventure/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.b55586d5.chunk.css.map": "/Badventure/static/css/main.b55586d5.chunk.css.map",
+    "static/js/2.0ed73771.chunk.js.LICENSE.txt": "/Badventure/static/js/2.0ed73771.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d1aa6b3.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.0ed73771.chunk.js",
+    "static/css/main.b55586d5.chunk.css",
+    "static/js/main.1b73d3ab.chunk.js"
+  ]
+}
