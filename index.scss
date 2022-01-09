@@ -17,7 +17,7 @@ body {
 .App {
   max-width: 90%;
   margin: 0 auto;
-  // font-size: 1.8rem;
+
 }
 
 #footNote {
@@ -34,14 +34,10 @@ body {
   text-align: center;
   margin: 0 auto;
 }
-#dragon {
-  height: 300px;
-  width: auto;
-  margin-top: 30px;
-}
+
 .picture img {
-  max-height: 40%;
-  width: auto;
+  height: auto;
+  max-width: 100%;
   border-radius: 5px;
 }
 // .unsplashImage {
@@ -134,7 +130,40 @@ body {
     #footNote {
         visibility: hidden;
     }
-    
+
+    #title {
+      font-size: 1.7rem;
+    }
+
     
 
 }
+@media only screen and (max-width: 400px) {
+
+  .buttonContainer {
+    max-width: 90%;
+  }
+  .text,
+  .description { 
+    font-size: 1.2rem;
+  } 
+
+  .choiceA, .choiceB {
+
+  }
+
+.buttonA,
+.buttonB,
+.startButton,
+.retryButton { 
+  min-width:80%;
+  height:auto;
+  font-size:1rem;
+
+}
+#title {
+  font-size: 1rem;
+}
+
+}
+
